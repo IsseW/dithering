@@ -1,0 +1,11 @@
+[package]
+name = "dithering"
+version = "0.1.0"
+edition = "2021"
+author = "Isse"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+image = "0.24.3"
+clap = {version = "3.2.20", features = ["derive"]}
